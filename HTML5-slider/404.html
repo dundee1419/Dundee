@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,initial-scale=1.0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <script type="application/javascript" src="js/jquery-3.0.0.min.js"></script>
+    <script type="application/javascript" src="js/tool_DD.js"></script>
+    <script type="application/javascript" src="js/modal.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <title></title>
+</head>
+<body>
+<section class="wrap swp dfx" id="ego">
+    <div class="f_40 cor_white"><p>请用移动端设备查看</p></div>
+</section>
+
+<!--loading-->
+<div class="modal" id="loading" style="display: block;">
+    <div class="mod-bg "></div>
+    <div class="mod-area ">
+        <div class="loaders">
+            <div class="load-container load5">
+                <div class="loader">Loading...</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    window.onload = function () {
+        //隐藏加载
+        setTimeout(function () {
+            $('#loading').fadeOut('slow');
+        }, 500);
+
+
+        $(function () {
+            // 获取终端的相关信息
+            if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+                //alert(navigator.userAgent);
+                window.location.href='index.html';
+            } else if (/(Android)/i.test(navigator.userAgent)) {
+                //alert(navigator.userAgent);
+                window.location.href='index.html';
+            } else {
+                return false;
+            };
+        });
+    };
+</script>
+</html>

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,initial-scale=1.0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <script type="application/javascript" src="js/jquery-3.0.0.min.js"></script>
+    <script type="application/javascript" src="js/tool_DD.js"></script>
+    <script type="application/javascript" src="js/modal.js"></script>
+    <script type="application/javascript" src="js/comm.js"></script>
+    <script type="text/javascript" src="js/app3.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <title>Dundee的个人简历</title>
+</head>
+<body>
+<section class="wrap swp" id="ego">
+    <div class="silder cor_cccccc f_24" id="silder">
+        <div class="sil " >
+            <div class="sil-cent  " style="display: block;z-index: 1;">
+                <div class="p-name mgC_30 bounceInLeft"><p class="f_26">项目名称：</p></div>
+                <div class="txlct mgT_40">
+                    <div class="p-tit bounceIn">
+                        <p>个</p>
+                        <p>人</p>
+                        <p>简</p>
+                        <p>历</p>
+                    </div>
+                </div>
+                <div class="p-detail mgC_30 mgT_80 f_24 bounceInUp">
+					<div><p>Tisp：</p></div>
+					<div class="mgC_20 f_20 mgT_10 ">
+						<p>布局方案：rem布局</p>
+						<p>实现技术：HTML5+CSS3,Canvas+JS+JQuery</p>
+					</div>
+                </div>
+                <div class="mgT_40 txlct fadeIn"><p class="cor_ff0000 f_18 txlct ilibk">*划动手指会有炫彩粒子特效</div>
+            </div>
+            <canvas id="xk" ></canvas>
+        </div>
+        <div class="sil">
+            <div class="sil-cent mgC_30">
+                <div class="hpot bounceInDown"><img src="images/header.jpg" class=""/></div>
+                <div class="ii-inf f_28 cor_white">
+                    <div class="mgT_20 ii-inf-tit rotateInUpLeft"><p>个人资料：</p></div>
+                    <div class="ii-inf-box mgC_40 mgT_20">
+                        <ul class="ii-inf-ul">
+                            <li>
+                                <p class="cor_cccccc f_20">姓名</p>
+                                <p class="">邓迪</p>
+                            </li>
+                            <li>
+                                <p class="cor_cccccc f_20">学历</p>
+                                <p class="">大专</p>
+                            </li>
+                            <li>
+                                <p class="cor_cccccc f_20">出生日期</p>
+                                <p class="">1991.11.20</p>
+                            </li>
+                            <li>
+                                <p class="cor_cccccc f_20">籍贯</p>
+                                <p class="">江西省南昌市</p>
+                            </li>
+                            <li>
+                                <p class="cor_cccccc f_20">手机</p>
+                                <p class=""><a href="tel:18079151722" class="cor_white">18079151722</a></p>
+                            </li>
+                            <li>
+                                <p class="cor_cccccc f_20">求职意向</p>
+                                <p class="">前端工程师/移动前端</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <canvas id="xk2"  width="320" height="568"></canvas>
+        </div>
+        <div class="sil">
+            <div class="sil-cent ">
+                <div class="">
+                    <div class="iii mgT_60">
+                        <div class="f_40 cor_white txlct"><p><b>工作经验</b></p></div>
+                        <div class="wkb iii-timer iii-wkb">
+                            <div class="wkb-fx ">
+                                <div class="iii-1314 mgT_20 in-1314">
+                                    <p class="iii-tim txlct">2013-2014</p>
+                                    <p class="iii-cme txlct">甘肃驿丰电子商务公司</p>
+                                    <p class="iii-det">
+                                        &emsp;&emsp;负责黄土优品购物网站的前端页面的制作，网站维护。
+                                    </p>
+                                </div>
+                                <div class="iii-1516 in-1516">
+                                    <p class="iii-tim txlct">2015-2016</p>
+                                    <p class="iii-cme txlct">盈富资产管理股份公司</p>
+                                    <p class="iii-det">
+                                        &emsp;&emsp;负责该公司旗下“贷鼠理财(P2P理财平台)”PC端、微信端前端页面
+                                        从PS切图到DIV/CSS标准页面制作及主流浏览器兼容问题的解决,并与后台紧密配合,
+                                        确保代码连接的有效性.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="iii-line iii-linIn">
+                                <div class="t-1 iii-cir t-1-CirIn"></div>
+                                <div class="t-2 iii-cir t-2-CirIn"></div>
+                                <div class="t-3 iii-cir t-3-CirIn"></div>
+                                <div class="t-4 iii-cir t-4-CirIn"></div>
+                            </div>
+                            <div class="wkb-fx">
+                                <div class="iii-1415 in-1415">
+                                    <p class="iii-tim txlct">2014-2015</p>
+                                    <p class="iii-cme txlct">南昌佳美美容医院</p>
+                                    <p class="iii-det">
+                                        1、负责佳美美容医院4个主站的日常维护工作<br/>
+                                        2、4个主站的专题页面,活动页面切图制作。<br/>
+                                    </p>
+                                </div>
+                                <div class="iii-1617 in-1617">
+                                    <p class="iii-tim txlct">2016-至今</p>
+                                    <p class="iii-cme txlct">易尊网络科技股份公司 </p>
+                                    <p class="iii-det">
+                                        1、负责全国各地三大运营商的活动外包:PSD切图后构建页面,
+                                        利用JS、CSS3书写前端功能，让页面更充实丰富<br/>
+                                        2、移动端JS游戏制作<br/>
+                                        3、H5活动页面制作<br/>
+                                        4、H5 canvas 游戏制作
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sil">
+            <div class="sil-cent ">
+                <div class="iv-skill mgC_20">
+                    <div class="iv-tit rltIn"><p>技能</p></div>
+                    <div class="iv-skill-inf" id="ivWords">
+
+                    </div>
+                </div>
+                <div class="iv-opus mgC_20">
+                    <div class="iv-tit rgtIn"><p>作品集</p></div>
+                    <div class="iv-list">
+                        <ul class="iv-list-ul">
+                            <li><a href="http://frontend.soji.so/Dundee/2017/03/gzhb-wap-27/index.html"><img src="images/opus-0.JPG"/></a></li>
+                            <li><a href="http://frontend.soji.so/Dundee/2017/04/cll-wap-27/index.html"><img src="images/opus-1.JPG"/></a></li>
+                            <li><a href="http://frontend.soji.so/Dundee/2017/04/yzf-wap-10/index.html"><img src="images/opus-2.JPG"/></a></li>
+                            <li><a href="http://frontend.soji.so/Dundee/2017/03/gdhb-wap-13/index.html"><img src="images/opus-3.JPG"/></a></li>
+                            <li><a href="http://frontend.soji.so/Dundee/2017/03/fsyd-wap-08/index.html"><img src="images/opus-4.JPG"/></a></li>
+                            <li><a href="http://frontend.soji.so/Dundee/2017/02/cll-wap-23/index.html"><img src="images/opus-5.JPG"/></a></li>
+                            <li><a href="http://gd.189.cn/hd/Dundee/index.html"><img src="images/opus-6.JPG"/></a></li>
+                            <li><a href="http://frontend.soji.so/Dundee/2017/06/cll-wap-13/index.html"><img src="images/opus-7.JPG"/></a></li>
+                        </ul>
+                        <div class="iv-more txlct"><a href="http://event.soji.so/index.php?s=/Home/FrontEnd/index.html&type=-1&name=Dundee" class="f_24 cor_white">更多作品</a></div>
+                    </div>
+                </div>
+            </div>
+            <canvas id="app5"  width="320" height="568"></canvas>
+        </div>
+        <div class="sil">
+            <div class="sil-cent  ">
+                <div class="dfx swp">
+                    <div class="">
+                        <div class="v-wx v-roIn"><img src="images/wx_ew.jpg" id="ew" class=""/></div>
+                        <div class="v-infr txlct">
+                            <div class="wkb mgT_40 v-det v-bInDw">
+                                <div class="v-ic-p"></div>
+                                <div class="v-ic-a"><a href="tel:18079151722" class="f_32 cor_white">18079151722</a></div>
+                            </div>
+                            <div class="wkb mgT_20 v-det v-bInDw">
+                                <div class="v-ic-email"></div>
+                                <div class="v-ic-a"><p class="f_32 cor_white">dundee1419@163.com</p></div>
+                            </div>
+                        </div>
+                        <div class="v-think cor_white txlct v-bInUp">
+                            <p class="f_24 mgT_30 v-fdIn">期待成为贵公司的一员</p>
+                            <p class="f_50 mgT_20 v-fdIn">Thank you</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swp-up"><p class="f_50 pluse">︿<br/>︿</p></div>
+</section>
+    <!--common alert-->
+    <div class="modal" id="tips">
+        <div class="mod-bg mod-hide"></div>
+        <div class="mod-area ">
+            <div class="modal-box">
+                <span class="mod-close mod-hide"></span>
+                <div class="alt-title f_30 cor_ff0000 txlct"><b>提示</b></div>
+                <div class="mod-con mgT_25 f_24 cor_333333">
+                    <p class="txlct">XXXXXXX</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--loading-->
+    <div class="modal" id="loading" style="display: block;">
+        <div class="mod-bg "></div>
+        <div class="mod-area ">
+            <div class="loaders">
+                <div class="load-container load5">
+                    <div class="loader">Loading...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    window.onload = function () {
+        //隐藏加载
+        setTimeout(function () {
+            $('#loading').fadeOut('slow');
+        }, 500);
+        // 获取终端的相关信息
+        var ua = window.navigator.userAgent.toLowerCase();
+        if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+            $('#ew').attr('src','images/wx_ew.jpg');
+        }else if(ua.match(/QQ/i) == "qq"){
+            $('#ew').attr('src','images/qq_ew.jpg');
+        }
+
+    };
+    function TouchUpDown(id) {
+        this.id=id;
+        this.init={x:5,y:5,sx:0,sy:0,ex:0,ey:0};
+    }
+    TouchUpDown.prototype={
+        showTouch: function () {
+            var dom=document.getElementById(this.id);
+            var jQDom=$('#'+this.id);
+            var len= jQDom.children().length;
+            var inx=0;//初始化 页面下标
+            var it=this.init;
+            dom.addEventListener("touchstart",function(){
+                it.sx = event.targetTouches[0].pageX;
+                it.sy = event.targetTouches[0].pageY;
+                it.ex = it.sx;
+                it.ey = it.sy;
+            }, false);
+
+            dom.addEventListener("touchmove",function() {
+                event.preventDefault();//阻止触摸时浏览器的缩放、滚动条滚动
+                it.ex = event.targetTouches[0].pageX;
+                it.ey = event.targetTouches[0].pageY;
+
+            }, false);
+
+            dom.addEventListener('touchend', function () {
+                var changeX = it.sx -it.ex;
+                var changeY =it.sy - it.ey;
+                if (Math.abs(changeY) > Math.abs(changeX) && Math.abs(changeX) > it.x) {
+                    //上下事件
+                    if (changeY > 0) {
+                        upORdn('silder',inx,'up');
+                        if(inx<len-1){
+                            inx++;
+                        }
+                    } else {
+                        if(inx>0){
+                            inx--;
+                        }
+                        upORdn('silder',inx,'down');
+                    }
+                }
+                if(inx==(len-1)){
+                    $('.swp-up').hide('slow');
+                }else {
+                    $('.swp-up').show('slow');
+                }
+
+                console.log(inx);
+            }, false);
+
+        }
+    };
+    var tf=new TouchUpDown('silder');
+    tf.showTouch();
+
+
+    /**
+     * js 获取子节点集合
+     * @param id 父节点
+     * @param inx 初始下标
+     * @param type 滑动类型 up/down
+     */
+    function upORdn(id,inx,type) {
+        id='#'+id;
+        var top=$(id).css('top');
+        var h=window.innerHeight;
+        var len= $(id).children().length;
+        var prv=(inx-1)>=(len-2)?(inx-1):inx;
+        var next=(inx+1)>=len?(len-1):(inx+1);
+        $(id).children().height(h);
+        if(type == 'down'){
+            $(id).children().eq(inx).children('div').show();
+            $(id).children().eq(next).children('div').hide();
+            $(id).animate({
+                top:-h*next+h,
+            },'slow');
+        }else{
+            $(id).children().eq(next).children('div').show();
+            $(id).children().eq(prv).children('div').hide();
+            $(id).animate({
+                top:-h*next,
+            },'slow');
+            console.log('prv='+prv);
+        }
+
+    }
+
+    /**
+     * js 获取子节点集合
+     * @param dom 父节点
+     * @returns {Array}
+     */
+    function domList(dom) {
+        var list=dom.childNodes;
+        var arr=[];
+        for(var i=0;i<list.length;i++){
+            if(list[i].nodeName != '#text'){
+                arr.push(list[i]);
+            }
+        }
+        return arr;
+    }
+
+
+        var body=document.getElementById('ego');
+        body.addEventListener('touchmove',function () {
+            var a=$('#silder .sil').offset().top;
+            var witer=null;
+            var ivWords=document.getElementById('ivWords');
+            var msg=' <ul class="iv-inf-ul"> ' +
+                    '<li>熟悉JavaScript，jQuery，了解Vue.js前端框架。</li> ' +
+                    '<li>精通HTML+CSS网页布局与样式;精通移动WAP端开发（自适应布局rem）;熟悉HTML5与CSS3.0，了解CSS预编译Less及Sass。</li> ' +
+                    '<li>熟练运用Photoshop、Sublime text、JetBrains WebStorm、Chrome等常用网页设计制作软件;熟悉使用版本控制器SVN，GIT管理代码。</li> ' +
+                    '<li>了解PHP语言,了解Thinkphp框架;了解JAVA Web编程，了解java三大框架，了解Spring MVC。</li> ' +
+                    '<li>了解微信开发，了解nodeJs,了解Bootstrap前端开发框架。</li> ' +
+                    '<li>熟悉JavaScript，jQuery，了解Vue.js前端框架。</li> ' +
+                    '</ul>';
+            if(a==(-wH*2)){
+                witer=new Writer(ivWords,msg,20);
+                witer.getMsg();
+            }
+
+        });
+
+
+</script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/app2.js"></script>
+<script type="text/javascript" src="js/app5.js"></script>
+</html>
